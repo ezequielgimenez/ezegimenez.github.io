@@ -52,6 +52,14 @@ body{
     border-radius: 8px;
 }
 
+.texto a:focus {
+    background:linear-gradient(to bottom, transparent, #222);
+	outline: none;
+}
+.texto a:hover{
+    background-color:rgb(220, 191, 26);
+}
+
 .wave {
     position: absolute;
     bottom: 0;
